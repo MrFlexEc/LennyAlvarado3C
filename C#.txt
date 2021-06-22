@@ -1,0 +1,66 @@
+Comentarios -->     /* */
+Mensaje por pantalla --> Console.WriteLine(); / Console.Write();
+CTRL + F5 --> iniciar sin depurar
+
+IDENTIFICADORES --> Solo se usan LETRAS, Numeros y guiones bajos. Solo se empieza por una letra
+
+			PrimeraAplicacion / Primera_Aplicacion
+			PrimeraAplicacion2
+
+	Namespaces	
+	clases		
+	metodos		
+	variables
+	constantes
+
+TIPOS DE DATOS
+	Por Valor --> se almacenan directamente en una variable
+		Primitivos
+			Enteros = tipo numerico sin decimal
+				Con signo (Son solo +) =  sbyte / short / int / long
+				Sin signo (No hace distincion entre si tiene + o -) = byte / ushort / uint / ulong
+			Reales = tipo numerico con decimal
+				Float = decimal largo
+				double = decimal extremadamente largo
+				decimal = Normales
+			Booleanos = expresar condiciones logicas / true-false
+				true
+				false
+
+		Mas usados: 	int (enteros)/ long (enteros grandes)  
+				/ float (numeros decimales) / double(decimales larges) /
+				decimal (decimal muy largos)/ string (cadena de caracteres)/ 
+				char (un unico caracter) / bool (booleanos)
+		Estructuras
+		Enumerados
+
+	Por referencia --> se almacena en una direccion de memoria
+	
+	Variables
+
+		Espacio en la Ram el ordenador donde se almacenara un valor que podra cambiar durante la
+		ejecucion del programa
+		- No comenzar el nombre de la variable con un guion bajo
+		- No crear mas de una variable que se diferencian solo por una letra
+		- Que el nombre de la variable empieze con minusculas, y hacer el camelcase (edadAlumno)
+		- No hacer notacion hungara
+		
+		Como crear una variable: Construir la variable. Debemos el tipo de dato que va a almacenar,
+					 seguido del nombre de la variable
+			int edad;
+		Iniciar una variable: Asignar un valor a esta variable
+			int edad = 28; / int edad;
+					 edad = 28;
+		NO SE PUEDE INICIAR UNA VARIABLE QUE NO SE HA INICIADO!
+
+OPERADORES ARITMETICOS
+
+	SUMA 		--> 	+ (sirve para sumar dos valores numericos, y tambien para concatenacion de strings)
+				++ (incremento/ sumar una unidad a un valor numerico)
+				+=5; (incrementa en 5 unidades)
+	RESTA 		--> 	- 
+				-- (Restar / restar una unidad a un valor numerico)
+				-9; (resta en 9 unidades)
+	MULTIPLICACION 	--> 	*
+	DIVISION	-->	/
+	RESIDUO		-->	% (el resto de una division)
